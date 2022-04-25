@@ -63,7 +63,7 @@ scene.add(light);
 const loader = new GLTFLoader();
 loader.crossOrigin = 'anonymous';
 loader.load(
-    `./models/${modelName}.vrm`,
+    `./${modelName}.vrm`,
 
     // called when the resource is loaded
     (gltf) => {
