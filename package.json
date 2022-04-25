@@ -1,0 +1,17 @@
+{
+  "name": "threevrm",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "@pixiv/three-vrm": "^0.6.11",
+    "three": "^0.139.2"
+  }
+}
